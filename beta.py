@@ -30,8 +30,7 @@ def salrio_horas_extras(tarifa_hora, tipo_horas_extras, horas_extras):
 
 
 def calcular_salario_bruto(salario_base, monto_horas_extras, bonificaciones, comisiones):
-    salario_base + monto_horas_extras + bonificaciones + comisiones
-    return calcular_salario_bruto
+    return salario_base + monto_horas_extras + bonificaciones + comisiones
 
 
 def calcular_deducciones(salario_bruto):
